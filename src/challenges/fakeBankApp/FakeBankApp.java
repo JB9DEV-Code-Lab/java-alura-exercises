@@ -48,23 +48,16 @@ public class FakeBankApp extends RunnableMenuOption {
         }
 
     public void run() {
-        showSeparator();
-        showClientData();
-        showSeparator();
-        menu.askForChoosingAnOption();
+        menu.askForChoosingAnOption(getClientData());
     }
 
-    private void showSeparator() {
-        System.out.println("********************************************************************************");
-    }
-
-    private void showClientData() {
-        System.out.printf("""
+    private String getClientData() {
+        return """
         CLIENT DATA
           Name:           %s
           Account type:   %s
           Amount:         %s
-        """, clientName, accountType, currencyFormatter.format(amount));
+        """.formatted(clientName, accountType, currencyFormatter.format(amount));
     }
 
     private void showRemainingAmount(OperationType operationType, double operationAmount) {
@@ -85,11 +78,13 @@ public class FakeBankApp extends RunnableMenuOption {
         }
     }
 
+    // region private classes
     private class CheckAmout extends RunnableMenuOption {
         public CheckAmout() {
             super("Check Amount");
         }
 
+        @Override
         public void run() {
             System.out.printf("Your current amount is %s %n%n", getFormattedAmount());
             wantToProceed();
@@ -101,6 +96,7 @@ public class FakeBankApp extends RunnableMenuOption {
             super("Receive Money");
         }
 
+        @Override
         public void run() {
             double value = reader.askForDouble("""
             \nRECEIVE AMOUNT
@@ -124,6 +120,7 @@ public class FakeBankApp extends RunnableMenuOption {
             super("Send Money");
         }
 
+        @Override
         public void run() {
             if (value < 0) {
                 value = reader.askForDouble("""
@@ -157,4 +154,6 @@ public class FakeBankApp extends RunnableMenuOption {
             }
         }
     }
+    // endregion private classes
+
 }

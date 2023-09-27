@@ -32,6 +32,18 @@ public class Menu {
         runOption(reader.askForInteger("Which option do you want?"));
     }
 
+    public void askForChoosingAnOption(String headerMessage) {
+        showHeader(headerMessage);
+        askForChoosingAnOption();
+    }
+
+    private void showHeader(String message) {
+        String separator = "******************************************************************************************";
+        System.out.println(separator);
+        System.out.println(message);
+        System.out.println(separator);
+    }
+
     private void runOption(int option) {
         if (validateOption(option)) {
             items.get(option).run();
