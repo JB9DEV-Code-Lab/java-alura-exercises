@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff6cb565-bc30-457f-940f-ea1439ea9dc0" name="Changes" comment="feat: solves a new challenge">
+    <list default="true" id="ff6cb565-bc30-457f-940f-ea1439ea9dc0" name="Changes" comment="fix: remove forgotten comment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/challenges/fakeBankApp/FakeBankApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/challenges/fakeBankApp/FakeBankApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/challenges/fakeMusicApp/models/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/challenges/fakeMusicApp/models/Music.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +144,23 @@
       <option name="project" value="LOCAL" />
       <updated>1695685272373</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: add showHeader method to menu&#10;&#10;This method makes it easier to do a nice presentation before asking for choosing an option. Besides that it was added a method overloading and all necessary refactoring to make it possible.">
+      <option name="closed" value="true" />
+      <created>1695823348619</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1695823348619</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix: remove forgotten comment">
+      <option name="closed" value="true" />
+      <created>1695823408253</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695823408253</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,7 +182,9 @@
     <MESSAGE value="feat: implement main execution point" />
     <MESSAGE value="idea: automatic idea stuff" />
     <MESSAGE value="feat: solves a new challenge" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: solves a new challenge" />
+    <MESSAGE value="feat: add showHeader method to menu&#10;&#10;This method makes it easier to do a nice presentation before asking for choosing an option. Besides that it was added a method overloading and all necessary refactoring to make it possible." />
+    <MESSAGE value="fix: remove forgotten comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: remove forgotten comment" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

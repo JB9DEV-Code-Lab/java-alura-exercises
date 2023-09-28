@@ -5,6 +5,9 @@ public class Music extends Audio {
     private String album;
     private String artist;
     private String gender;
+    private static final int MINIMUM_LIKES_TO_MAKE_IT = 200;
+    private static final int MAX_SORTING_GRADE = 10;
+    private static final int STEP_TO_SORTING =  MINIMUM_LIKES_TO_MAKE_IT / MAX_SORTING_GRADE;
     // endregion fields
 
     // region getters and setters
@@ -37,12 +40,12 @@ public class Music extends Audio {
     // region overridings
     @Override
     public int getSorting() {
-        // TODO: Improve it to have more ranges
-        if (getLikes() >= 200)  {
-            return 10;
+        int likes = getLikes();
+        if (likes >= MINIMUM_LIKES_TO_MAKE_IT)  {
+            return MAX_SORTING_GRADE;
         }
 
-        return 8;
+        return likes / STEP_TO_SORTING;
     }
     // endregion overridings
 }
