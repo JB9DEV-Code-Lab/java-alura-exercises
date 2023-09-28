@@ -4,20 +4,35 @@ import java.util.Scanner;
 
 public class Reader {
     private final Scanner scanner = new Scanner(System.in);
-    private final String defaultQuestionSufix = "\n> ";
 
     public String askForInput(String question) {
-        System.out.print(question + defaultQuestionSufix);
-        return scanner.next();
+        ask(question);
+        return scanner.nextLine();
     }
 
     public int askForInteger(String question) {
-        System.out.print(question + defaultQuestionSufix);
-        return scanner.nextInt();
+        try {
+            ask(question + " (type only numbers)");
+            return Integer.parseInt(scanner.nextLine());
+        } catch (NumberFormatException exception) {
+            System.out.println("It was expected an integer but got another type of data: " + exception);
+        }
+
+        return 0;
     }
 
     public double askForDouble(String question) {
-        System.out.print(question + defaultQuestionSufix);
-        return scanner.nextDouble();
+        try {
+            ask(question + " (type only numbers and it can have decimals)");
+            return Double.parseDouble(scanner.nextLine());
+        } catch (NumberFormatException exception) {
+            System.out.println("It was expected a double but got another type of data: " + exception);
+        }
+
+        return 0.0;
+    }
+
+    private void ask(String question) {
+        System.out.print(question + "\n> ");
     }
 }
