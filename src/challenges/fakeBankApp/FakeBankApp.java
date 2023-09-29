@@ -38,15 +38,16 @@ public class FakeBankApp extends RunnableMenuOption {
 
     public FakeBankApp() {
         super("Fake Bank App");
-        menu.addMenuItem(1, new CheckAmout());
-        menu.addMenuItem(2, new ReceiveMoney());
-        menu.addMenuItem(3, new SendMoney());
+        menu.addItem(1, new CheckAmout());
+        menu.addItem(2, new ReceiveMoney());
+        menu.addItem(3, new SendMoney());
     }
 
     public String getFormattedAmount() {
             return currencyFormatter.format(amount);
         }
 
+    @Override
     public void run() {
         menu.askForChoosingAnOption(getClientData());
     }
