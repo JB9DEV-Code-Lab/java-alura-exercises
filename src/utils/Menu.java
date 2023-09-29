@@ -14,22 +14,18 @@ public class Menu {
         items.put(0, new QuitFromApplication());
     }
 
-    public void addMenuItem(Integer option, RunnableMenuOption runnableMenuOption) {
-        if (option <= 0) {
-            throw new RuntimeException("Invalid option value passed: " + option);
-        }
-
+    public void addItem(Integer option, RunnableMenuOption runnableMenuOption) {
         items.put(option, runnableMenuOption);
     }
 
     public void askForChoosingAnOption() {
-        System.out.println(title.toUpperCase());
+        System.out.println("\n\n" + title.toUpperCase() + "\n");
 
         for (int memuOption : items.keySet()) {
             System.out.println(memuOption + ": " + items.get(memuOption).getName());
         }
 
-        runOption(reader.askForInteger("Which option do you want?"));
+        runOption(reader.askForInteger("\nWhich option do you want?"));
     }
 
     public void askForChoosingAnOption(String headerMessage) {
