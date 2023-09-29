@@ -30,9 +30,4 @@ public class Product implements Comparable<Product> {
     public String toString() {
         return String.format("%s - %s", getName(), currencyFormatter.format(getPrice()));
     }
-
-    /*
-     * TODO:
-     *   Turn into an ordinary class, to implement compareTo and toString methods
-     * */
 }
