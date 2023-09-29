@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff6cb565-bc30-457f-940f-ea1439ea9dc0" name="Changes" comment="fix: remove forgotten comment">
+    <list default="true" id="ff6cb565-bc30-457f-940f-ea1439ea9dc0" name="Changes" comment="refact: increase music sorting ranges">
+      <change afterPath="$PROJECT_DIR$/src/challenges/shoppingSimulator/ShoppingSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/challenges/shoppingSimulator/models/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/challenges/fakeMusicApp/models/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/challenges/fakeMusicApp/models/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/challenges/fakeBankApp/FakeBankApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/challenges/fakeBankApp/FakeBankApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Reader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,10 +21,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Record" />
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -160,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695823408253</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="refact: increase music sorting ranges">
+      <option name="closed" value="true" />
+      <created>1695904891552</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695904891552</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,7 +197,8 @@
     <MESSAGE value="feat: solves a new challenge" />
     <MESSAGE value="feat: add showHeader method to menu&#10;&#10;This method makes it easier to do a nice presentation before asking for choosing an option. Besides that it was added a method overloading and all necessary refactoring to make it possible." />
     <MESSAGE value="fix: remove forgotten comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: remove forgotten comment" />
+    <MESSAGE value="refact: increase music sorting ranges" />
+    <option name="LAST_COMMIT_MESSAGE" value="refact: increase music sorting ranges" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
