@@ -1,3 +1,4 @@
+import challenges.addressSearcher.AddressSearcher;
 import challenges.fakeBankApp.FakeBankApp;
 import challenges.fakeMusicApp.FakeMusicApp;
 import challenges.shoppingSimulator.ShoppingSimulator;
@@ -11,6 +12,8 @@ public class Main {
         menu.addItem(2, new FakeBankApp());
         menu.addItem(3, new FakeMusicApp());
         menu.addItem(4, new ShoppingSimulator());
+        menu.addItem(5, new AddressSearcher());
+
         menu.askForChoosingAnOption("""
         Hi, welcome to Alura Exercises!
 
