@@ -19,6 +19,30 @@ public class Address {
         this.zipcode = dto.cep();
     }
 
+    public String getCity() {
+        return city;
+    }
+
+    public String getComplement() {
+        return complement;
+    }
+
+    public String getNeighborhood() {
+        return neighborhood;
+    }
+
+    public String getState() {
+        return state;
+    }
+
+    public String getStreet() {
+        return street;
+    }
+
+    public String getZipcode() {
+        return zipcode;
+    }
+
     @Override
     public String toString() {
         try {
