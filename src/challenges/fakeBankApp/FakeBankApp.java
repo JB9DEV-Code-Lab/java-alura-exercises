@@ -76,6 +76,8 @@ public class FakeBankApp extends RunnableMenuOption {
 
         if (yesOrNo == 1) {
             menu.askForChoosingAnOption();
+        } else {
+            System.exit(0);
         }
     }
 
