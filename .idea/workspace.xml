@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff6cb565-bc30-457f-940f-ea1439ea9dc0" name="Changes" comment="feat: add AddressSearcher to main menu">
-      <change afterPath="$PROJECT_DIR$/src/challenges/addressSearcher/repository/SearchedAddressRepository.java" afterDir="false" />
+    <list default="true" id="ff6cb565-bc30-457f-940f-ea1439ea9dc0" name="Changes" comment="build: ignore auto generated json file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/challenges/addressSearcher/AddressSearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/challenges/addressSearcher/AddressSearcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/challenges/addressSearcher/models/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/challenges/addressSearcher/models/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/challenges/addressSearcher/services/AddressHttpService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/challenges/addressSearcher/services/AddressHttpService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/challenges/fakeBankApp/FakeBankApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/challenges/fakeBankApp/FakeBankApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/challenges/shoppingSimulator/ShoppingSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/challenges/shoppingSimulator/ShoppingSimulator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,19 +48,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/JBS27/Personal/Projects/Java/Alura/Exercicios",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/JBS27/Personal/Projects/Java/Alura/Exercicios&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="FakeBankApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="challenges.fakeBankApp.FakeBankApp" />
@@ -247,7 +245,39 @@
       <option name="project" value="LOCAL" />
       <updated>1696545869639</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="feat: add a repository to save searches to a json file">
+      <option name="closed" value="true" />
+      <created>1696630867482</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1696630867482</updated>
+    </task>
+    <task id="LOCAL-00021" summary="feat: add a repository to save searches to a json file">
+      <option name="closed" value="true" />
+      <created>1696630902062</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1696630902062</updated>
+    </task>
+    <task id="LOCAL-00022" summary="feat: use SearchedAddressRepository to access json file">
+      <option name="closed" value="true" />
+      <created>1696630986688</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1696630986688</updated>
+    </task>
+    <task id="LOCAL-00023" summary="build: ignore auto generated json file">
+      <option name="closed" value="true" />
+      <created>1696631012558</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1696631012558</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,7 +310,10 @@
     <MESSAGE value="docs: remove forgotten todo" />
     <MESSAGE value="feat: solving address searcher challenge" />
     <MESSAGE value="feat: add AddressSearcher to main menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add AddressSearcher to main menu" />
+    <MESSAGE value="feat: add a repository to save searches to a json file" />
+    <MESSAGE value="feat: use SearchedAddressRepository to access json file" />
+    <MESSAGE value="build: ignore auto generated json file" />
+    <option name="LAST_COMMIT_MESSAGE" value="build: ignore auto generated json file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

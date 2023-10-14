@@ -32,8 +32,8 @@ public class ShoppingSimulator extends RunnableMenuOption {
         menu.addItem(2, new SetMyCredits());
 
         keepShoppingMenu = new Menu("Do you want to continue?");
-        keepShoppingMenu.addItem(0, new KeepShopping());
-        keepShoppingMenu.addItem(1, stopShopping);
+        keepShoppingMenu.addItem(1, new KeepShopping());
+        keepShoppingMenu.addItem(2, stopShopping);
 
         menu.askForChoosingAnOption("""
         Hi, welcome to %s!
