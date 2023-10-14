@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff6cb565-bc30-457f-940f-ea1439ea9dc0" name="Changes" comment="refact: improve keep shopping menu options" />
+    <list default="true" id="ff6cb565-bc30-457f-940f-ea1439ea9dc0" name="Changes" comment="docs: fixes project title on Readme file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -296,7 +296,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697316440478</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="docs: fixes project title on Readme file">
+      <option name="closed" value="true" />
+      <created>1697316912102</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1697316912102</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -335,7 +343,8 @@
     <MESSAGE value="refact: improve menu with auto quit option" />
     <MESSAGE value="refact: improve exiting from application" />
     <MESSAGE value="refact: improve keep shopping menu options" />
-    <option name="LAST_COMMIT_MESSAGE" value="refact: improve keep shopping menu options" />
+    <MESSAGE value="docs: fixes project title on Readme file" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: fixes project title on Readme file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
