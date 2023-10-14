@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff6cb565-bc30-457f-940f-ea1439ea9dc0" name="Changes" comment="build: ignore auto generated json file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/challenges/fakeBankApp/FakeBankApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/challenges/fakeBankApp/FakeBankApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/challenges/shoppingSimulator/ShoppingSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/challenges/shoppingSimulator/ShoppingSimulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Menu.java" afterDir="false" />
-    </list>
+    <list default="true" id="ff6cb565-bc30-457f-940f-ea1439ea9dc0" name="Changes" comment="refact: improve keep shopping menu options" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -277,7 +272,31 @@
       <option name="project" value="LOCAL" />
       <updated>1696631012558</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="refact: improve menu with auto quit option">
+      <option name="closed" value="true" />
+      <created>1697316368427</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1697316368427</updated>
+    </task>
+    <task id="LOCAL-00025" summary="refact: improve exiting from application">
+      <option name="closed" value="true" />
+      <created>1697316411459</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1697316411459</updated>
+    </task>
+    <task id="LOCAL-00026" summary="refact: improve keep shopping menu options">
+      <option name="closed" value="true" />
+      <created>1697316440478</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1697316440478</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -313,7 +332,10 @@
     <MESSAGE value="feat: add a repository to save searches to a json file" />
     <MESSAGE value="feat: use SearchedAddressRepository to access json file" />
     <MESSAGE value="build: ignore auto generated json file" />
-    <option name="LAST_COMMIT_MESSAGE" value="build: ignore auto generated json file" />
+    <MESSAGE value="refact: improve menu with auto quit option" />
+    <MESSAGE value="refact: improve exiting from application" />
+    <MESSAGE value="refact: improve keep shopping menu options" />
+    <option name="LAST_COMMIT_MESSAGE" value="refact: improve keep shopping menu options" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
