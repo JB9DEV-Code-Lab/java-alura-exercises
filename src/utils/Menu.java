@@ -6,15 +6,21 @@ import java.util.Map;
 
 public class Menu {
     private final Map<Integer, RunnableMenuOption> items = new HashMap<>();
+    private int greatestMenuOption = 1;
     private final String title;
+    private final QuitFromApplication quitFromApplication = new QuitFromApplication();
     private final Reader reader = new Reader();
 
     public Menu(String title) {
         this.title = title;
-        items.put(0, new QuitFromApplication());
+        addQuitApplicationMenuOption();
     }
 
     public void addItem(Integer option, RunnableMenuOption runnableMenuOption) {
+        if (option >= greatestMenuOption) {
+            greatestMenuOption++;
+            addQuitApplicationMenuOption();
+        }
         items.put(option, runnableMenuOption);
     }
 
@@ -33,6 +39,13 @@ public class Menu {
         askForChoosingAnOption();
     }
 
+    public void customizeQuitItemName(String newQuitOptionName) {
+        items.get(greatestMenuOption).setName(newQuitOptionName);
+    }
+
+    private void addQuitApplicationMenuOption() {
+        items.put(greatestMenuOption, quitFromApplication);
+    }
     private void showHeader(String message) {
         String separator = "******************************************************************************************";
         System.out.println(separator);
@@ -56,11 +69,14 @@ public class Menu {
 
         return isValid;
     }
+    private static class QuitFromApplication extends RunnableMenuOption {
+        public QuitFromApplication() {
+            super("Quit");
+        }
+
+        public void run() {
+            System.exit(0);
+        }
+    }
 }
 
-class QuitFromApplication extends RunnableMenuOption {
-    public QuitFromApplication() {
-        super("Quit");
-    }
-    public void run() {}
-}
