@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff6cb565-bc30-457f-940f-ea1439ea9dc0" name="Changes" comment="docs: fixes project title on Readme file" />
+    <list default="true" id="ff6cb565-bc30-457f-940f-ea1439ea9dc0" name="Changes" comment="docs: fixes title and description on Readme file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -304,7 +306,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697316912102</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="docs: fixes title and description on Readme file">
+      <option name="closed" value="true" />
+      <created>1697317112679</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1697317112679</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -319,7 +329,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="build: add project structure" />
     <MESSAGE value="feat: implement Number Guessing Game" />
     <MESSAGE value="feat: implement Fake Bank App challenge" />
     <MESSAGE value="feat: implement a menu abstraction&#10;&#10;This menu should be used from any challenge, game or any other exercise that needs a menu to execute something." />
@@ -344,7 +353,8 @@
     <MESSAGE value="refact: improve exiting from application" />
     <MESSAGE value="refact: improve keep shopping menu options" />
     <MESSAGE value="docs: fixes project title on Readme file" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs: fixes project title on Readme file" />
+    <MESSAGE value="docs: fixes title and description on Readme file" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: fixes title and description on Readme file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
